@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 238, 215);
+    
+  
+}
+/* header nav .container{
+    background:  rgba(255, 144, 14, 0.1);
+} */
+
+h2{
+    font-size: 2.5rem ;
+}
+a{
+    color: black;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.container{
+    padding: 1px 7px;
+    
+} 
+.brand-name{
+    position: absolute;
+    width: 302px;
+    height: 53px;
+    left: 130px;
+    top: 50px;
+}
+.brand-name:hover{
+    color: #727272;
+}
+.architects-menubar{
+    position: absolute;
+    width: 477px;
+    height: 26px;
+    left: 1203px;
+    top: 63px;
+   
+} 
+.architects-menubar a{
+    padding: 10px;
+}
+.architects-menubar i{
+    padding: 10px;
+}
+.architects-menubar:hover{
+   background-color: gray;
+}
+.brand-title{
+    position: absolute;
+    width: 862px;
+    height: 225px;
+    left: 529px;
+    top: 170px;
+    text-align: center;
+}
+.btn{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+.banner-img{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 240px;
+    right: 240px;
+    top: 400px;
+    border-radius: 8px;
+   
+}
+.banner-img:hover{
+    box-shadow: 5px -5px 5px,-5px 5px 5px;
+}
+
+/********************************* main **************************************/
+
+.client-team{
+    position: absolute;
+    width: 342px;
+    height: 342px;
+    left: 430px;
+    top: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 24px;
+}
+.client-team img:hover{
+    box-shadow: 5px -5px 5px,-5px 5px 5px;
+}
+.client-detail{
+    position: absolute;
+    width: 537px;
+    height: 304px;
+    left: 800px;
+    top: 200px;
+    text-align: center;
+}
+/**************************************** Features *****************************************/
+.experience h1{
+    font-size: 60px;
+}
+.experience h2{
+    font-size: 20px;
+}
+.experience p{
+    font-size: 16px;
+    color: #727272;
+}
+.experience{
+    position: absolute;
+    width: 468px;
+    height: 106px;
+    left: 266px;
+    top: 2000px;
+    grid-gap: 20px;
+}
+.experience-detail-1:hover{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.experience-detail-2:hover{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.experience-detail-3:hover{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.experience-detail-4:hover{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.architects-img{
+    position: absolute;
+    width: 800px;
+    height: 1059px;
+    left: 880px;
+    top: 2000px;
+    border-radius: 8px;
+}
+.architects-img:hover{
+    box-shadow:5px -5px 5px,-5px 5px 5px;
+    border-radius: 8px;
+}
+.architects-img .btn{
+    position: absolute;
+    width: 258px;
+    height: 120px;
+   left: 10px;
+   margin-top: 850px;
+}
+.btn .experience-year{
+    font-size: 50px;
+}
+/************************************************* Icons/Facts **************************************/
+.facts-info h2{
+    position: absolute;
+    font-size: 45px;
+    height: 120px;
+    left: 220px;
+    top: 3050px;
+}
+.facts-info p{
+    position: absolute;
+    width: 358px;
+    font-size: 16px;
+    height: 30px;
+    left: 220px;
+    top: 3150px;
+    
+}
+.icons{
+    box-sizing: border-box;
+    position: absolute;
+    width: 241.83px;
+    height: 241.83px;
+    left: 300px;
+    top: 3250px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 100px;
+    text-align: center;
+}
+.icons h2{
+    text-align: center;
+}
+.icons p{
+    color: #727272;
+    font-size: 16px;
+    text-align: center
+}
+
+/********************************************** Our Sponsored By *************************************************/
+.sponsor-title{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 689px;
+    top: 3500px;
+
+}
+.sponsored{
+    width: 100%;
+    height: 200px;
+    
+}
+.sponsored{
+    position: absolute;
+    width: 153.33px;
+    height: 50px;
+    top: 3750px;
+    left: 330px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 150px;
+    
+    
+}  
+
+/************************************ Footer *******************************/
+footer{
+    position: absolute;
+    width: 860px;
+    height: 100px;
+    left: 678px;
+    top: 3850px; 
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    
+} 
+.copyright{
+    padding-right: 700px;
+}
+
+/*********************** Media Quaries ******************/
+
